@@ -38,10 +38,10 @@ function App() {
         searchItem.map((item,idx)=>{
           return <div key={idx} className=' bg-white shadow-lg shadow-gray-500  gap-3 rounded-2xl  overflow-hidden hover:scale-95'>
             <img className='h-120 w-full' src={item.urlToImage} alt="" />
-            <h1 className='p-2'>{item.title}</h1>
-            <h1 className='p-2'>{item.description}</h1>
-            <h1 className='p-2'>{item.publishedAt}</h1>
-            <h1 className='bg-zinc-900 text-white h-15 p-2'>{item.content}</h1>
+            <h1 className='p-3'>{item.title}</h1>
+            <h1 className='p-3'>{item.description}</h1>
+            <h1 className='p-3'>{item.publishedAt}</h1>
+            <h1 className='bg-zinc-900 text-white h-15 p-3'>{item.content}</h1>
           </div>
         })
         ):(
